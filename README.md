@@ -3,7 +3,7 @@
 * Name: Mathieu Bruneault
 * Python version: 3.x
 * The two problems I submit are the advection equation and the hydro solver (whose scripts are respectively name advection_equation.py and hydro_solver.py)
-* Collaborators: Alexandre Khoury, Ronan Legin
+* Collaborators: Alexandre Khoury, Ronan Legin, Manuel Bolduc (for hydro solver)
 
 ## List of Files and what they do
 
