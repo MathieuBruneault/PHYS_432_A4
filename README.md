@@ -17,10 +17,10 @@ This script numerically solves the continuity equation and the Euler equation fo
 
 ## Observations/Answers to question
 
-1. Advection Equation
+1. Advection Equation (advection_equation.py)
 
 As should be expected, the FTCS scheme is not stable at all, it blow up quite quickly. The Lax-Friedrich method is more well behaved, and it tends to some stationary function as t progresses
 
-2. Hydro solver
+2. Hydro solver (hydro_solver.py)
 
 With a large enough amplitude and reflective boundary conditions, two waves eventually form at the extremities of our x space, and they then collide at the center, forming a shock. The amplitude of this shock is set by the initial amplitude of density, but the width is most likely set by the initial velocity distribution.
